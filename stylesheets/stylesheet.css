@@ -61,17 +61,6 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-<<<<<<< HEAD
-    padding: 5rem 6rem; } }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
-    padding: 3rem 4rem; } }
-
-@media screen and (max-width: 42em) {
-  .page-header {
-    padding: 2rem 1rem; } }
-=======
     padding: 1rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
@@ -81,7 +70,6 @@ a {
 @media screen and (max-width: 42em) {
   .page-header {
     padding: 1rem 1rem; } }
->>>>>>> 94f2ab58faacf61fc4623c74b61d20b439dd40e7
 
 .project-name {
   margin-top: 0;
