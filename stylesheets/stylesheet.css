@@ -61,6 +61,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
+<<<<<<< HEAD
     padding: 5rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
@@ -70,6 +71,17 @@ a {
 @media screen and (max-width: 42em) {
   .page-header {
     padding: 2rem 1rem; } }
+=======
+    padding: 1rem 6rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-header {
+    padding: 1rem 4rem; } }
+
+@media screen and (max-width: 42em) {
+  .page-header {
+    padding: 1rem 1rem; } }
+>>>>>>> 94f2ab58faacf61fc4623c74b61d20b439dd40e7
 
 .project-name {
   margin-top: 0;
@@ -243,3 +255,29 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+h1.Gionfriddo {
+  margin: 0;
+  text-align: left;
+  float: left;
+}
+
+.profile-pic-sm {
+  display: inline;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+}
+
+.profile-pic-wrap {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: right;
+}
+
+.page-header {
+  overflow: hidden;
+}
